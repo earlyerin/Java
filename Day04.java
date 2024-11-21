@@ -19,7 +19,7 @@ public class Day04 {
 		x %= 2; // x = x % 2
 		System.out.println(x);
 		
-		// 복합 대입 연산자 풀어서 쓴 형태(가동성 향상)
+		// 복합 대입 연산자 풀어서 쓴 형태(가독성 향상)
 		System.out.println("==========");
 		int result = 0;
 		result = result + 10;
@@ -156,7 +156,6 @@ public class Day04 {
 		 * 영어 75점
 		 * 역사 88점
 		 */
-		
 		int kor = 85;
 		int mat = 85;
 		int eng = 75;
@@ -190,7 +189,6 @@ public class Day04 {
 		/* Quiz4
 		 * 수를 입력받아 짝수인지 홀수인지 판단하는 프로그램(삼항 연산자 사용)
 		 */
-		
 		System.out.println("정수입력>>");
 		int number3 = sc.nextInt();
 		String result4 = (number3 % 2 == 0) ? "짝수" : "홀수";
