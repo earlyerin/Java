@@ -47,7 +47,7 @@ public class Day01 {
 		int
 			b2=
 				20
-	    ;
+	        ;
 		System.out.println(b1);
 		System.out.println(b2);
 		
